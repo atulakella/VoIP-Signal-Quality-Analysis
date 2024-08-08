@@ -14,7 +14,7 @@ def generate_voip_data(num_entries=200):
     source_ips = ['192.168.1.10'] * num_entries
     destination_ips = ['192.168.1.20'] * num_entries
     packet_sizes = np.random.randint(140, 160, size=num_entries)  # Packet size between 140 and 160 bytes
-    jitters = np.random.randint(20, 70, size=num_entries)  # Jitter between 5 and 30 ms
+    jitters = np.random.randint(20, 100, size=num_entries)  # Jitter between 5 and 30 ms
     latencies = np.random.randint(160, 250, size=num_entries)  # Latency between 15 and 40 ms
     packet_losses = np.random.uniform(0, 2, size=num_entries)  # Packet loss between 0% and 1%
 
