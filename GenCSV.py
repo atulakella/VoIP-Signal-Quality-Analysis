@@ -9,7 +9,6 @@ def generate_voip_data(num_entries=200):
     # Generate random timestamps
     start_time = datetime(2024, 8, 8, 10, 0, 0)
     timestamps = [start_time + timedelta(seconds=i) for i in range(num_entries)]
-
     # Generate synthetic data for other columns
     source_ips = ['192.168.1.10'] * num_entries
     destination_ips = ['192.168.1.20'] * num_entries
@@ -17,7 +16,6 @@ def generate_voip_data(num_entries=200):
     jitters = np.random.randint(20, 100, size=num_entries)  # Jitter between 5 and 30 ms
     latencies = np.random.randint(160, 250, size=num_entries)  # Latency between 15 and 40 ms
     packet_losses = np.random.uniform(0, 2, size=num_entries)  # Packet loss between 0% and 1%
-
     # Create DataFrame
     df = pd.DataFrame({
         'Timestamp': timestamps,
@@ -43,9 +41,7 @@ def generate_voip_data(num_entries=200):
 
 # Generate the dataset
 df = generate_voip_data()
-
 # Optionally, save the dataset to a CSV file
 df.to_csv('voip_calls_dataset.csv', index=False)
-
 # Display the first few rows of the dataset
 print(df.head())
