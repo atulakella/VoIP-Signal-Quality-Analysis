@@ -11,7 +11,8 @@ To tackle the analysis, we generate a synthetic dataset that simulates an origin
 - **Latency (ms)**
 - **Jitter (ms)**
 - **Packet Loss (%)**
-  ![image](https://github.com/user-attachments/assets/756dbadf-5acd-419c-bd02-a0b37b358130)
+![Screenshot 2024-08-08 162849](https://github.com/user-attachments/assets/8819f4a1-d806-4576-902d-afbcf5118630)
+
 
 
 Using this data, we calculate the R-Factor, which is a standard metric for evaluating the quality of a VoIP signal. The R-Factor is computed using the formula:
@@ -53,7 +54,8 @@ The results are presented in graphical formats showing how the metrics and R-Fac
 
 ![plots](https://github.com/user-attachments/assets/20569ed3-c2f1-42ce-83a5-a1a9599047fd)
 
-![image](https://github.com/user-attachments/assets/4a53f207-f76f-43df-9f21-34d6978cbda9)
+![Screenshot 2024-08-08 165721](https://github.com/user-attachments/assets/ceaece0b-f5c7-491c-b44c-3f2dd11157fc)
+
 
 
 ## Contributers
