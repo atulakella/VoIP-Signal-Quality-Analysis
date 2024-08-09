@@ -47,10 +47,5 @@ The project includes the following analytical components:
 
 The results are presented in graphical formats showing how the metrics and R-Factor vary over time and how frequently different levels of signal quality occur. These insights are crucial for assessing VoIP signal performance under various network conditions.
 
-## Contributing
-
-Feel free to contribute to this project by submitting issues or pull requests. For any questions or suggestions, please contact [your email address].
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Contributers
+Abhiram Panthangi
