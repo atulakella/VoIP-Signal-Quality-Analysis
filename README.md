@@ -7,7 +7,7 @@ This project focuses on analyzing VoIP (Voice over Internet Protocol) signal qua
 ## Approach
 
 To tackle the analysis, we generate a synthetic dataset that simulates an original VoIP dataset. This dataset includes the following metrics:
-
+ 
 - **Latency (ms)**
 - **Jitter (ms)**
 - **Packet Loss (%)**
