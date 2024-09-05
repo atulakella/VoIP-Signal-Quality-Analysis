@@ -59,5 +59,5 @@ The results are presented in graphical formats showing how the metrics and R-Fac
 
 
 ## Contributers
-Atul Akella
-Abhiram Panthangi
+- Atul Akella
+- Abhiram Panthangi
